@@ -1,0 +1,110 @@
+body{
+    font-family: "Bai Jamjuree";
+}
+
+input{
+    font-size: 50px;
+    font-family: "Bai Jamjuree";
+    border: 1px dashed black;
+    width: 70px;
+    text-align: center;
+}
+
+.main-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.punnet-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.punnet-square-wrapper{
+    display: flex;
+    flex-direction: row; 
+}
+
+.punnet-square-wrapper-dos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.left-input-column{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 70px;
+
+}
+
+.top-input-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.punnet-square{
+    display: flex;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    min-height: 400px;
+    min-width: 400px;
+    /* max-width: 80%; */
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+.bbysquare{
+    display: flex;
+    border: 1px solid black;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+
+
+}
+
+.bbysquarerow{
+    display: flex;
+    flex: 1;
+    flex-direction: row; 
+}
+
+.calculate-btn{
+
+    background-color: rgb(211, 211, 211);
+    width: 100px;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
+.percentage-list{
+    min-width: 250px;
+    margin-left: -250px;
+    font-size: 50px;
+    transform: translateX(300px);
+}
+
